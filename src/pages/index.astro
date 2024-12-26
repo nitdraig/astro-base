@@ -1,0 +1,29 @@
+---
+import LandingLayout from "../layouts/LandingLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<LandingLayout>
+  <section class="text-center py-12 bg-blue-600 text-white">
+    <h1 class="text-5xl font-bold mb-4">Welcome to Your Landing Page</h1>
+    <p class="text-xl">
+      Build fast, modern, and responsive websites with Astro!
+    </p>
+    <a href="/about" class="mt-6"> Learn More </a>
+  </section>
+
+  <section class="py-12">
+    <h2 class="text-3xl font-bold text-center mb-6">Features</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <Card
+        title="Fast"
+        description="Astro delivers super-fast static sites."
+      />
+      <Card title="Modern" description="Powered by modern web technologies." />
+      <Card
+        title="Scalable"
+        description="Easily extend with reusable components."
+      />
+    </div>
+  </section>
+</LandingLayout>
