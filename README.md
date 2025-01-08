@@ -1,7 +1,7 @@
 ### **README.md**
 
 ````markdown
-# 🚀 Astro Landing Page Template
+# 🚀 Astro Landing Page Template Base
 
 A modern, responsive landing page template built with **Astro**. This project is designed to create fast and scalable landing pages with reusable components and clean architecture.
 
@@ -39,7 +39,7 @@ pnpm install
 ### 3. Run the development server
 
 ```bash
-pnpm dev
+pnpm start
 ```
 
 The project will be available at `http://localhost:3000`.
@@ -73,7 +73,7 @@ Your optimized files will be available in the `dist/` folder.
             └── LandingLayout.astro
         └── 📁pages
             └── index.astro
-        └── 📁shared
+        └── 📁views
         └── 📁styles
             └── style.css
     └── .gitignore
